@@ -1,0 +1,17 @@
+.button {
+    padding: 12px;
+    text-align: center;
+    background-color: #1A5319;
+    font-size: 18px;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #67C6E3;
+        color: #000;
+    }
+
+    @media(max-width: 640px) {
+        display: block;
+        width: 100%;
+    }
+}

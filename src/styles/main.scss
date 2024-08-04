@@ -1,5 +1,8 @@
 @use 'variables';
 @use 'hero';
+@use './components/infos';
+@use './components/buttons';
+@use 'party';
 
 
 * {
@@ -8,6 +11,8 @@
     box-sizing: border-box;
     font-family: "Playwrite AR", cursive;
     color: variables.$textColor ;
+    list-style: none;
+    text-decoration: none;
 }
 
 .container {
@@ -20,6 +25,7 @@
     }
 
     @media(max-width: 1024px) {
-        max-width: 90%;
+        max-width: 85%;
+
     }
 }
