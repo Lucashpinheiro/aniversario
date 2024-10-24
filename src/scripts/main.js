@@ -1,6 +1,6 @@
 AOS.init();
 
-const partyDate = new Date("Oct 10, 2024 20:00");
+const partyDate = new Date("Oct 10, 2025 20:00");
 const partyTimeStamp = partyDate.getTime();
 
 const countTime = setInterval(function() {
